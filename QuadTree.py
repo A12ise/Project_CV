@@ -150,7 +150,7 @@ clear_button = Button(clear_ax, "Clear")
 clear_button.on_clicked(clear)
 
 load_ax = fig.add_axes([0.5, 0.0001, 0.25, 0.075])  # ขยายปุ่ม Load Image และย้ายไปข้างล่าง
-load_button = Button(load_ax, "Load Image")
+load_button = Button(load_ax, "Upload Image")
 load_button.on_clicked(load_image)
 
 plt.show()
